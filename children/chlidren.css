@@ -1,0 +1,93 @@
+.body {
+    width: 100%;
+   
+   
+  
+    display: grid;
+    gap: 10px;
+  
+    grid-template-areas:
+      "name name name name"
+      "head head head head"
+      "     . intro intro .    "
+      " items items items items"
+      " items items items items"
+      " items items items items"
+      " items items items items"
+      " items items items items"
+      " items items items items"
+      " items items items items"
+      " items items items items";
+  }
+  
+ 
+  .name {
+    grid-area: name;
+    text-align: left;
+    text-decoration-color: rgb(168, 229, 255);
+    text-shadow: 8px 8px 5px rgb(14, 136, 189);
+    font: 20px "Roboto";
+    background-color: #bdebff;
+    display: flex;
+  
+    justify-content: space-between;
+  }
+  .name img {
+    width: 120px;
+  }
+  
+  .head {
+  display: flex;
+    justify-content: space-around;
+    grid-area: head;
+    input{
+
+      border: none;
+      background-color: #ddeffe2b;
+      
+      }
+  }
+  .head form{
+      width: 20%;
+      display:  inline;
+  
+  }
+   
+  .bu_home{
+      width: 100%;
+      font-size: 25px;
+   
+  }
+  .bu_home:hover{
+  
+      font-size: 30px;
+      border: 3px black solid;
+  
+  }
+ 
+  #button_chlidren{
+  
+background-color: rgba(0, 255, 255, 0);
+      border-bottom: 10px solid  #55c9fb ;
+  
+  
+  }
+  .intro {
+    grid-area: intro;
+
+    display: flex;
+justify-content: center;
+
+
+
+  }
+  .intro img{
+    width: 70%;
+        border-bottom: #55c9fb 10px solid;
+        border-right: #a8e5ff 10px solid;
+    }
+  
+  .items {
+    grid-area: items;
+  }
+  
