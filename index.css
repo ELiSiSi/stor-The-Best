@@ -32,7 +32,8 @@
   border-bottom: 3px #a8e5ff solid;
 }
 .name img {
-  width: 120px;
+  width: 100px;
+  
 }
 
 .thebest{
@@ -70,6 +71,7 @@ translate: 0 0;
   input {
     border: none;
     background-color: #ddeffe2b;
+    font-size: 16px;
   }
 }
 
@@ -122,7 +124,7 @@ translate: 0 0;
 }
 
 .items div {
-  width: 200px;
+  width: 170px;
   height: 350px;
 
  
