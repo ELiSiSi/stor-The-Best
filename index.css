@@ -53,7 +53,7 @@
 
 .bu_home {
   width: 100%;
-  font-size: 25px;
+  font-size: 20px;
 }
 .bu_home:hover {
   font-size: 30px;
@@ -75,9 +75,17 @@
   border-bottom: #55c9fb 10px solid;
   border-right: #a8e5ff 10px solid;
 }
+
+.intro img:hover {
+  width: 100%;
+  border-bottom: #23bbfd 10px solid;
+  border-right: #6acffa 10px solid;
+}
+
+
 .items {
   grid-area: items;
-width: 100%;
+  width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -89,23 +97,137 @@ width: 100%;
 .items div {
   width: 200px;
   height: 350px;
+
  
+  box-shadow: 0 0 6px 5px rgb(127, 123, 123);
+  border: 1px rgb(80, 80, 80) solid;
+  border-radius: 10px;
+
   display: flex;
-  justify-content: center;
-  align-items: start;
+flex-direction: column;
+ 
+justify-content: space-around;
+ align-content: center;
+ flex-wrap: wrap;
+
+
+
+ font: 20px "Roboto";
+
+ button {
+
+  width: 80%;
+  height: 7%;
+
+  background-color: #7ed6fc ;
   
-border: 3px black solid;
-  border-radius: 10px   ;
+  border: black 1px solid;
+  }
+
+  button:hover {
+
+    width: 85%;
+    height: 10%;
+  
+    background-color: #21b6f6 ;
+    
+    border: black 3px solid;
+    }
+
+    button:focus {
+
+      width: 80%;
+      height: 7%;
+    
+      background-color: green ;
+      
+      border: black 1px solid;
+      }
+    
+
+
+
+
+    
 }
 
-.items>div>img {
+.items > div > img {
   width: 85%;
- padding-top: 10px;
+  padding-top: 10px;
   border-bottom: #55c9fb 10px solid;
- 
 }
+
+.items > div > img:hover {
+  width: 90%;
+  padding-top: 0px;
+  border-bottom: #55c9fb 10px solid;
+}
+
+ 
+.items div p {
+
+ 
+
+  font-style: bold ;
+   }
+ 
+ .items div p span{
+text-decoration-line: line-through;
+ color: rgb(73, 61, 61);
+ 
+text-decoration-color: rgb(0, 0, 0);
+ }
+
+ .items div p b{
+
+  color: red;
+  
+ 
+  }
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .item1 {
+
+ 
+
+ 
+ 
 }
 
 .item2 {
