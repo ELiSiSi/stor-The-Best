@@ -21,7 +21,7 @@
 
 .body div {
   text-align: center;
- 
+
   background-color: rgba(0, 0, 255, 0);
   font-size: 30px;
 }
@@ -44,40 +44,61 @@
   grid-area: form;
   display: flex;
   justify-content: center;
- 
+}
+
+fieldset label pre {
+
+  display:inline;
 }
 .form .submit {
-  
- width: 50%;
+  width: 50%;
   font-size: 20px;
-   
-  background-color:   rgb(168, 229, 255);
-  
+
+  background-color: rgba(168, 229, 255, 0.4);
 }
 
-.form .submit:hover{
-  
- 
+.form .submit:hover {
   font-size: 22px;
   border: 2px black solid;
- 
-  
 }
 
-.form .submit:active{
-  
- 
- 
+.form .submit:active {
   border: 2px black solid;
- 
-  
 }
 
 .form input:focus {
-  
+  border: 3px blue solid;
+}
+
+
+@media (max-width:770px){
+.login {
+  grid-area: login;
+
+  font: bold 18px/20px "Cairo";
+}
+
+fieldset {
+
+width: 250px;
+
+}
+
+fieldset label {
+
+font-size: medium;
+
+
+}
+fieldset label pre {
+
+  display: inline;
+}
  
-  
-  border: 3px  blue solid;
- 
-  
+
+.form .submit {
+  width: 50%;
+  font-size: 15px;
+ background-color: rgba(168, 229, 255, 0.4);
+}
 }
