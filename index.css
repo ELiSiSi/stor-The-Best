@@ -150,12 +150,18 @@ body {
     font-weight: lighter;
 
  }
+  .profile .text p {
+     font-size: 35px;
+        font-weight: lighter;
+ margin-top: -30px;
+
+   }
 @media (max-width: 500px) {
   .profile .text p {
     padding-top: 10px;
-    font-size: 25px;
+    font-size: 20px;
         font-weight: lighter;
- 
+ margin-bottom: -5px;
 
    }
 }
@@ -176,13 +182,25 @@ body {
  
 
 }
-
+ 
 .profile .icon i {
   font-size: 35px;
   color: #55c9fb ;
   
 }
-
+@media (max-width: 500px) {
+.profile .icon {
+  padding-top: 20px;
+  word-spacing: 15px;
+          font-weight: lighter;
+ margin-bottom: -40px;
+}
+.profile .icon i {
+  font-size: 30px;
+  color: #55c9fb ;
+  
+}
+}
 .profile .icon i:hover {
   font-size: 45px;
   color:  #ffffff;
