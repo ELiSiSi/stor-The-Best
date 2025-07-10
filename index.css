@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;700;900&display=swap');
+
+
 :root {
   --main-color: #000000f1;
   --secondary-color: #55c9fb;
@@ -60,7 +63,7 @@ body {
 /* start header */
 /* start header */
 .header {
-  background-color: #bfe8fa;
+  background-color: #ffffff;
 }
 
 .header .container {
